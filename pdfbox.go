@@ -64,7 +64,7 @@ func New(ctx context.Context, uri string) (*PDFBox, error) {
 		return nil, fmt.Errorf("Failed to locate java, %w", err)
 	}
 
-	jar_r, err := jar.FS.Open("pdfbox-app-2.0.26.jar")
+	jar_r, err := jar.FS.Open("pdfbox-app-2.0.29.jar")
 
 	if err != nil {
 		return nil, fmt.Errorf("Failed to open jar file, %w", err)

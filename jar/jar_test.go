@@ -7,8 +7,8 @@ import (
 
 func TestFS(t *testing.T) {
 
-	jarfile := "pdfbox-app-2.0.26.jar"
-	fsize := int64(10081077)
+	jarfile := "pdfbox-app-2.0.29.jar"
+	fsize := int64(12457752)
 
 	r, err := FS.Open(jarfile)
 
