@@ -1,2 +1,12 @@
 *~
 bin
+
+# Ignore Direnv
+.envrc*
+
+# Ignore Goland
+.idea
+
+# Ignore Raw PDF data
+pdf/*
+
